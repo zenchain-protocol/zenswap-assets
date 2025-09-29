@@ -7,3 +7,5 @@ The logo will be fetched in ZenSwap using the following url:
 const getTokenLogoURL = (address: string) =>
   `https://raw.githubusercontent.com/zenchain-protocol/zenswap-assets/main/assets/${address}/logo.png`;
 ```
+
+The token address is case sensitive and should be the checksummed address.
